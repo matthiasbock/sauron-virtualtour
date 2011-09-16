@@ -1,0 +1,46 @@
+#summary Concept
+
+= Horizon =
+
+The vertical line in the middle of the panorama picture is called "horizon"
+and assumed to divide "sky" and "floor".
+This must be considered, when preparing images for panoramic view:
+They need to be aligned appropriately.
+
+= Viewpoints =
+
+A viewpoint is a coordinate in the virtual reality. Since this framework
+focusses on the virtual exploration of buildings, the third coordinate (z)
+simply is the current floor number.
+Currently the z coordinate will not be considered.
+
+Viewpoints nearby each other must be visible in the appropriate panorama view.
+
+According to their actual distance, their representation's size differs.
+It is defined during tour development, the Javascript simply loads it.
+
+= Panoramas =
+
+Standing on a panorama viewpoint, the user
+may make one complete 360° turn (after which
+the view is invisibly reset to 0°).
+
+After holding his mouse cursor motionless on the left or right side
+of the picture for a short time, the view starts turning accordingly.<br/>
+In a similar way, it is solved here:
+ * http://charabanc.sourceforge.net/demo/code/virtual-tour.html
+
+= Routes =
+
+When the cursor moves below the horizon, Sauron
+assumes, that the user wants to see possible routes from
+his viewpoint.
+The routes show up as predefined during tour development and vanish,
+as the cursor leaves to floor area.
+This is realized by fading in/out a transparent image containing the paths.
+
+= Walking =
+
+After a viewpoint was clicked by the user, path and viewpoints vanish,
+the view is smoothly turned to the predefined walk start angle and
+video is played showing the walk to the selected viewpoint.
