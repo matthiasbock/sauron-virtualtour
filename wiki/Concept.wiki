@@ -44,3 +44,4 @@ This is realized by fading in/out a transparent image containing the paths.
 After a viewpoint was clicked by the user, path and viewpoints vanish,
 the view is smoothly turned to the predefined walk start angle and
 video is played showing the walk to the selected viewpoint.
+The speed of turning prior to walking increases with time to match the walking speed.
