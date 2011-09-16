@@ -1,0 +1,28 @@
+#summary Calculating distances
+
+= Calculating distances =
+
+The size of viewpoint and the routes leading to it decrease with
+increasing "distance". But how can we know the distance from a foto?
+
+Objects closer to the bottom of the picture logically are more closer
+to the viewer, how close exactly depends on the fotography angle.
+Objects closer to the horizon are (theoretically) approaching infinite distance.
+
+Each vertical pixel represents a fixed angle in
+the viewer's vertical field of vision.
+
+http://sauron-virtualtour.googlecode.com/svn-history/r12/trunk/distance_calculation.jpg
+
+Given:
+ * invisible angle ( = starting angle)
+ * total angle of view
+ * relative angle of horizon
+ * the height of the spectator
+
+It holds:
+{{{
+ distance = invisible distance + visible distance
+ invisible distance = tangens( invisible angle ) * spectator's height
+ 
+}}}
