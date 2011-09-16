@@ -2,14 +2,14 @@
 
 = Introduction =
 
-Sauron is a Virtual Tour framework for embedding realistic but
-simple and thus CPU-friendly 3D effects to a web page.
-It's primary application is to enable web users to enter buildings online
-using their web browsers.
+Sauron is a Virtual Tour framework for web designers, that allows to embed
+impressive 3D views of a location to a website in a CPU-friendly way.
+It's primary (intended) application is to enable users to enter buildings
+online (using nothing else but their web browsers).
 
 Since it is based entirely on HTML and Javascript,
-it works without the need for further software installations,
-especially without Java and Flash.
+it works without the need for further software installations, 
+in particular without Java and Flash.
 
 == Features ==
 Major features of Sauron are, that you may attach
