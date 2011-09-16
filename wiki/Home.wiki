@@ -29,6 +29,8 @@ charabanc, a software similar to Sauron, also written in Javascript but simpler:
  * http://charabanc.sourceforge.net/
 Another Javascript solution:
  * http://www.mind2b.com/component/content/article/9-info/2-360-panoramic-javascript-virtual-tour-free
+A german company trying a Flash-based solution:
+ * http://virtuelle-begehungen.de/
 
 = Virtual tours online =
  * Golden Tulip Hotel Berlin (Flash based): http://www.moving-pictures.de/v6/golden_tulip/index.php
