@@ -11,7 +11,7 @@ Since it is based entirely on HTML and Javascript,
 it works without the need for further software installations, 
 in particular without Java and Flash.
 
-== Features ==
+= Features =
 Major features of Sauron are, that you may attach
  * meta information
  * URLs (links)
@@ -20,3 +20,13 @@ Major features of Sauron are, that you may attach
 to objects in the 3D space.
 This way the user shall be given a realistic impression of a
 location he may never have visited in reality.
+<br/><br/>
+
+= Weblinks =
+charabanc is a software similar to Sauron, also written in Javascript but more simple:
+ * http://charabanc.sourceforge.net/
+Another Javascript solution:
+ * http://www.mind2b.com/component/content/article/9-info/2-360-panoramic-javascript-virtual-tour-free
+
+= Virtual tours online =
+ * Golden Tulip Hotel Berlin (Flash based): http://www.moving-pictures.de/v6/golden_tulip/index.php
