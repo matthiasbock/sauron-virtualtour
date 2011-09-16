@@ -5,7 +5,9 @@
 == Step 1: Make a 360° video ==
 
 Grab your video camera, a tripod and place them at your viewpoint of choice.
-Record a 360° round look.
+Record a 360° round look. Like this one:
+
+<wiki:video url="http://www.youtube.com/watch?v=QWbQRavGDQI"/>
 
 == Step 2: Select good frames ==
 
