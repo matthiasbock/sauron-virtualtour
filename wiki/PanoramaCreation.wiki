@@ -1,0 +1,8 @@
+#summary How to create a Panorama
+
+= How to create a Panorama =
+
+== ... from a video ==
+
+Let's say, you have a video, where you have recorded a 360°
+panorama from a static point, like it was done here:
