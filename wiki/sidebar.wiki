@@ -1,3 +1,4 @@
  * [Home]
  * [Concept]
  * [Distances]
+ * [PanoramaCreation Panorama creation]
