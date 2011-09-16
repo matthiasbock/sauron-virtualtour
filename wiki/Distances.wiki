@@ -15,14 +15,21 @@ the viewer's vertical field of vision.
 http://sauron-virtualtour.googlecode.com/svn-history/r12/trunk/distance_calculation.jpg
 
 Given:
- * invisible angle ( = starting angle)
- * total angle of view
- * relative angle of horizon
- * the height of the spectator
+ * spectator height
+ * invisible angle (red)
+ * total angle of view (green)
+ * panorama picture height in pixels
+ * object's y coordinate in pixels from the picture bottom
 
 It holds:
 {{{
- distance = invisible distance + visible distance
- invisible distance = tangens( invisible angle ) * spectator's height
- 
+ object distance = tangens( total object angle ) * height
+ total object angle = invisible angle + visible object angle
+ visible object angle = object y coordinate * degrees per pixel
+ degrees per pixel = picture height in pixels / total angle of view
+}}}
+
+This results in the distance equation:
+{{{
+ obj distance = tangens( invisible angle + obj y coordinate * picture height in pixels / total angle of view ) * height
 }}}
