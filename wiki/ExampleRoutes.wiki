@@ -1,0 +1,13 @@
+#summary Example Routes
+
+<wiki:video url="http://www.youtube.com/watch?v=QWcGmRjd_a8"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=yVDQ2D98mHY"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=kK1dmYJCIWc"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=cJ-0ZgmDHtw"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=ehfgC0dpVVE"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=DXg-5kv4SWI"/>
