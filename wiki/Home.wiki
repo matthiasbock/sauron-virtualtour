@@ -34,3 +34,4 @@ A german company trying a Flash-based solution:
 
 = Virtual tours online =
  * Golden Tulip Hotel Berlin (Flash based): http://www.moving-pictures.de/v6/golden_tulip/index.php
+ * NORC Panoramas: http://www.norc.at/street-view/
