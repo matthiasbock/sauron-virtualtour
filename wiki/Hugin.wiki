@@ -1,0 +1,15 @@
+#summary Hugin
+
+= Hugin =
+
+From this video:
+
+<wiki:video url="http://www.youtube.com/watch?v=QWbQRavGDQI"/>
+
+using this script:
+
+http://code.google.com/p/sauron-virtualtour/source/browse/trunk/example/extract-frames.sh
+
+you get the following panorama picture:
+
+http://sauron-virtualtour.googlecode.com/svn/trunk/example/A.MP4.frames/A.jpg
