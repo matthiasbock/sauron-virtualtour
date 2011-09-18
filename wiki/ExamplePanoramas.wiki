@@ -1,7 +1,12 @@
 #summary Example Panoramas
 
+= Example Viewpoint A =
 <wiki:video url="http://www.youtube.com/watch?v=QWbQRavGDQI"/>
+gives:
+http://sauron-virtualtour.googlecode.com/svn/trunk/example/A.MP4.frames/A.jpg
 
+= Example Viewpoint B =
 <wiki:video url="http://www.youtube.com/watch?v=gClec-BVtls"/>
 
+= Example Viewpoint C =
 <wiki:video url="http://www.youtube.com/watch?v=Sx3dgRjo9pY"/>
