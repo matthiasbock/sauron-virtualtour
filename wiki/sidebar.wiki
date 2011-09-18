@@ -3,6 +3,7 @@
  * [Distances]
  * [PanoramaCreation Panorama creation]
  * [Stitching Image stitching]
+ * [Hugin]
  * Example
   * [ExamplePanoramas Panoramas]
   * [ExampleRoutes Routes]
