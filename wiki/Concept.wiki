@@ -2,22 +2,22 @@
 
 = Horizon =
 
-The vertical line in the middle of the panorama picture is called "horizon"
-and assumed to divide "sky" and "floor".
-This must be considered, when preparing images for panoramic view:
-They need to be aligned appropriately.
+The "horizon" is the one horizontal line in the
+panorama picture, that divides "sky" from "ground".
 
 = Viewpoints =
 
-A viewpoint is a coordinate in the virtual reality. Since this framework
-focusses on the virtual exploration of buildings, the third coordinate (z)
-simply is the current floor number.
-Currently the z coordinate will not be considered.
+A viewpoint is a 3D coordinate in the virtual reality. Since this framework
+focusses on the virtual exploration of buildings, the z coordinate
+is an integer: the current floor number, where 0 is the ground (start position).
+Currently the z coordinate is ignored anyway.
 
-Viewpoints nearby each other must be visible in the appropriate panorama view.
+In every panorama view the viewpoints nearby are visible and clickable.
 
-According to their actual distance, their representation's size differs.
-It is defined during tour development, the Javascript simply loads it.
+According to their actual distance,
+a viewpoint's size in the panorama view differs.
+For simplicity it is defined during tour development,
+the Javascript simply loads it.
 
 = Panoramas =
 
@@ -26,8 +26,12 @@ may make one complete 360° turn (after which
 the view is invisibly reset to 0°).
 
 After holding his mouse cursor motionless on the left or right side
-of the picture for a short time, the view starts turning accordingly.<br/>
-In a similar way, it is solved here:
+of the picture for a short time, the view starts turning accordingly.
+The turning speed increases as the mouse cursor is moved closer to the
+panorama's border and decreases as it is moved away.
+<br/>
+
+In this solution, you turn using mouse clicks:
  * http://charabanc.sourceforge.net/demo/code/virtual-tour.html
 
 = Routes =
@@ -38,6 +42,9 @@ his viewpoint.
 The routes show up as predefined during tour development and vanish,
 as the cursor leaves to floor area.
 This is realized by fading in/out a transparent image containing the paths.
+
+Of course, routes may also exists above the horizon, e.g. if they lead
+above a hill or something, but this case is ignored for now.
 
 = Walking =
 
