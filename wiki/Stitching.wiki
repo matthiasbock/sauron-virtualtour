@@ -1,0 +1,6 @@
+#summary Image stitching
+
+= Image stitching =
+
+ * http://en.wikipedia.org/wiki/Image_stitching
+ * http://de.wikipedia.org/wiki/Stitching
