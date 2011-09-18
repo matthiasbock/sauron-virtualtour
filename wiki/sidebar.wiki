@@ -2,7 +2,8 @@
  * [Concept]
  * [Distances]
  * [PanoramaCreation Panorama creation]
- * Virtual Tour example
+ * [Stitching Image stitching]
+ * Example
   * [ExamplePanoramas Panoramas]
   * [ExampleRoutes Routes]
  * [Weblinks]
