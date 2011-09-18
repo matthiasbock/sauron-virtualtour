@@ -5,3 +5,4 @@
  * Virtual Tour example
   * [ExamplePanoramas Panoramas]
   * [ExampleRoutes Routes]
+ * [Weblinks]
