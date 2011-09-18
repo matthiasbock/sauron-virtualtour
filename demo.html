@@ -1,7 +1,31 @@
 <html>
 
 <head>
-	<title></title>
+	<title>Sauron Virtual Tour Demo</title>
 </head>
+
+<style>
+	div.Viewer		{
+					border:			1px solid black;
+					width:			500px;
+					height:			500px;
+					overflow-x:		scroll;
+					overflow-y:		hidden;
+				}
+</style>
+
+<script>
+	function goLeft() {
+		Viewer.scrollTop = 100;
+		}
+</script>
+
+<body>
+	<input type=button onClick="goLeft();" value="<<">
+	<div class=Viewer>
+		<img src="example/A.jpg">
+	</div>
+	<input type=button onClick="goRight();" value=">>">
+</body>
 
 </html>
