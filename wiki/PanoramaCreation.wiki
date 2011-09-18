@@ -13,6 +13,11 @@ Open the video in LiVES and select 10-20 frames of good image quality.
 Take only these frames from the LiVES temp directory and drop the others.
 Remember the total number of frames, you needed for the complete 360°.
 
+You can also use mplayer for this job:
+{{{
+ mplayer video.mp4 -ao null -nosound -vo jpeg:quality=85:progressive -vf framestep=50
+}}}
+
 == Step 3: Assign angles to your frames ==
 
 If you turned your camera at a constant speed, you can use the
