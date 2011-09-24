@@ -1,0 +1,9 @@
+#summary Techniques
+
+= Techniques =
+
+ * Mouse coordinates: http://www.emanueleferonato.com/2006/09/02/click-image-and-get-coordinates-with-javascript/
+
+ * Javascript canvas drawing: https://developer.mozilla.org/en/Drawing_Graphics_with_Canvas
+
+ * WebGL: https://developer.mozilla.org/en/WebGL
