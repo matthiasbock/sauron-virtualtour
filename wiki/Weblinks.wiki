@@ -13,6 +13,6 @@
  * NORC Panoramas: http://www.norc.at/street-view/
 Note: None of the above use this library
 
-= Companys specialized on VTs =
+= Companies =
  * [mailto:mabo-technik@web.de MABO Technik]
  *  http://virtuelle-begehungen.de/
