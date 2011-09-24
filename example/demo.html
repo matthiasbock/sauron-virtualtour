@@ -7,25 +7,39 @@
 <style>
 	div.Viewer		{
 					border:			1px solid black;
-					width:			500px;
-					height:			500px;
-					overflow-x:		scroll;
-					overflow-y:		hidden;
+					width:			900px;
+					height:			600px;
+					overflow:		hidden;
+					vertical-align:		middle;
+					display:		block;
+				}
+	img.Panorama		{
+					height:			900px;
 				}
 </style>
 
 <script>
-	function goLeft() {
-		Viewer.scrollTop = 100;
+	function scroll(event) {
+		Viewer = document.getElementById("Viewer");
+		Panorama = document.getElementById("Panorama");
+		pos_x = event.offsetX?(event.offsetX):event.pageX-Viewer.offsetLeft;
+		pos_y = event.offsetY?(event.offsetY):event.pageY-Viewer.offsetTop;
+		Viewer.scrollLeft = Viewer.scrollWidth * pos_x / Viewer.offsetWidth;
+		Viewer.scrollTop = Viewer.scrollHeight * pos_y / Viewer.offsetHeight;
+		document.getElementById("x").value = pos_x;
+		document.getElementById("y").value = pos_y;
 		}
 </script>
 
 <body>
-	<input type=button onClick="goLeft();" value="<<">
-	<div class=Viewer>
-		<img src="A.jpg">
+	<center>
+	<br/><br/><br/>
+	<div class=Viewer id=Viewer>
+		<img class=Panorama id=Panorama src="A.jpg" onMouseMove="scroll(event);">
 	</div>
-	<input type=button onClick="goRight();" value=">>">
+	<br/>
+	<input type=edit id=x />
+	<input type=edit id=y />
 </body>
 
 </html>
