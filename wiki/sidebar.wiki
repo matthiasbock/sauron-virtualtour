@@ -1,6 +1,7 @@
  * [Home]
  * [Concept]
  * [Roadmap]
+ * [Techniques]
  * [Distances]
  * [PanoramaCreation Panorama creation]
  * [Stitching Image stitching]
