@@ -5,16 +5,33 @@
 </head>
 
 <style>
+	div.Anchor		{
+				}
 	div.Viewer		{
 					border:			1px solid black;
 					width:			900px;
 					height:			600px;
-					overflow:		hidden;
-					vertical-align:		middle;
+					overflow:		scroll;
 					display:		block;
 				}
-	img.Panorama		{
-					height:			900px;
+	div.Panorama		{
+					background-image:	url('A.jpg');
+					background-size:	10%;
+					background-repeat:	repeat-x;
+					width:			15000px;
+					height:			473px;
+				}
+
+	div.Viewpoint		{
+					background-color:	transparent;
+					background-image:	url('Viewpoint.png') no-repeat;
+				}
+	div.Viewpoint:hover	{
+					background-image:	url('Viewpoint_hover.png') no-repeat;
+					cursor:			pointer;
+				}
+	div.Viewpoint img	{
+					visibility:		hidden;
 				}
 </style>
 
@@ -25,7 +42,7 @@
 		pos_x = event.offsetX?(event.offsetX):event.pageX-Viewer.offsetLeft;
 		pos_y = event.offsetY?(event.offsetY):event.pageY-Viewer.offsetTop;
 		Viewer.scrollLeft = Viewer.scrollWidth * pos_x / Viewer.offsetWidth;
-		Viewer.scrollTop = 200 * pos_y / Viewer.offsetHeight;
+		Viewer.scrollTop = Viewer.scrollHeight * pos_y / Viewer.offsetHeight;
 		document.getElementById("x").value = pos_x;
 		document.getElementById("y").value = pos_y;
 		}
@@ -35,7 +52,9 @@
 	<center>
 	<br/><br/><br/>
 	<div class=Viewer id=Viewer>
-		<img class=Panorama id=Panorama src="A.jpg" onMouseMove="scroll(event);">
+		<div class=Panorama id=Panorama onMouseMove="scroll(event);">
+			<div class=Viewpoint id=Viewpoint1 style="left: 10px; top: 10px; width: 100px; height: 200px;"></div>
+		</div>
 	</div>
 	<br/>
 	<input type=edit id=x />
