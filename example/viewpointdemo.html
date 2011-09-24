@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<title>Sauron Virtual Tour Demo</title>
+</head>
+
+<style>
+	div.Viewer		{
+					border:			1px solid black;
+					width:			900px;
+					height:			600px;
+					overflow:		hidden;
+					vertical-align:		middle;
+					display:		block;
+				}
+	img.Panorama		{
+					height:			900px;
+				}
+</style>
+
+<script>
+	function scroll(event) {
+		Viewer = document.getElementById("Viewer");
+		Panorama = document.getElementById("Panorama");
+		pos_x = event.offsetX?(event.offsetX):event.pageX-Viewer.offsetLeft;
+		pos_y = event.offsetY?(event.offsetY):event.pageY-Viewer.offsetTop;
+		Viewer.scrollLeft = Viewer.scrollWidth * pos_x / Viewer.offsetWidth;
+		Viewer.scrollTop = 200 * pos_y / Viewer.offsetHeight;
+		document.getElementById("x").value = pos_x;
+		document.getElementById("y").value = pos_y;
+		}
+</script>
+
+<body>
+	<center>
+	<br/><br/><br/>
+	<div class=Viewer id=Viewer>
+		<img class=Panorama id=Panorama src="A.jpg" onMouseMove="scroll(event);">
+	</div>
+	<br/>
+	<input type=edit id=x />
+	<input type=edit id=y />
+</body>
+
+</html>

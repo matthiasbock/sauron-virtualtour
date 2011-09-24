@@ -25,7 +25,7 @@
 		pos_x = event.offsetX?(event.offsetX):event.pageX-Viewer.offsetLeft;
 		pos_y = event.offsetY?(event.offsetY):event.pageY-Viewer.offsetTop;
 		Viewer.scrollLeft = Viewer.scrollWidth * pos_x / Viewer.offsetWidth;
-		Viewer.scrollTop = Viewer.scrollHeight * pos_y / Viewer.offsetHeight;
+		Viewer.scrollTop = 200 * pos_y / Viewer.offsetHeight;
 		document.getElementById("x").value = pos_x;
 		document.getElementById("y").value = pos_y;
 		}
