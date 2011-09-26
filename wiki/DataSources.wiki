@@ -1,0 +1,6 @@
+#summary Sources
+
+= Image sources =
+
+ * [http://maps.google.de/intl/de/help/maps/streetview/ Google Street View]
+ * http://streetview.ch/
