@@ -10,4 +10,5 @@
  * Example
   * [ExamplePanoramas Panoramas]
   * [ExampleRoutes Routes]
+ * [DataSources Data sources]
  * [Weblinks]
