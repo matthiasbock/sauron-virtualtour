@@ -11,7 +11,7 @@
 = VTs online =
  * Golden Tulip Hotel Berlin: http://www.moving-pictures.de/v6/golden_tulip/index.php
  * NORC Panoramas: http://www.norc.at/street-view/
-Note: None of the above use this library
+ * http://www.louvre.fr/llv/musee/visite_virtuelle.jsp?bmLocale=en
 
 = Companies =
  * [mailto:mabo-technik@web.de MABO Technik]
