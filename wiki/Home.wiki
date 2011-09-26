@@ -3,7 +3,7 @@
 = Introduction =
 
 Sauron is a Virtual Tour framework for web designers, that allows to embed
-impressive 3D views of a location to a website in a CPU-friendly way.
+3D views of a location to a website in a CPU-friendly way.
 It's primary (intended) application is to enable users to enter buildings
 online (using nothing else but their web browsers).
 
@@ -17,6 +17,6 @@ Major features of Sauron are, that you may attach
  * URLs (links)
  * pictures and
  * videos
-to objects in the 3D space.
+to objects in 3D space.
 This way the user shall be given a realistic impression of a
 location he may never have visited in reality.
