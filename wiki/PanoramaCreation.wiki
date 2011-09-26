@@ -25,3 +25,5 @@ frame number to determine the angle of each of your frames.
 If not, just make a guess, it doesn't need to be 100% accurate.
 
 == Step 4: Generate a panorama picture ==
+
+... by [Stitching Image Stitching]
