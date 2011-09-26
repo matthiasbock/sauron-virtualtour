@@ -2,7 +2,7 @@
  * [Concept]
  * [Roadmap]
  * [Techniques]
- * [Distances]
+ * [Math]
  * [PanoramaCreation Panorama creation]
  * [Stitching Image stitching]
  * [Hugin]
