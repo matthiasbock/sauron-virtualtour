@@ -3,9 +3,10 @@
  * [Roadmap]
  * [Techniques]
  * [Math]
- * [PanoramaCreation Panorama creation]
- * [Stitching Image stitching]
- * [Hugin]
+ * Panorama creation
+  * [PanoramaCreation Steps]
+  * [Stitching Image stitching]
+  * [Hugin]
  * Example
   * [ExamplePanoramas Panoramas]
   * [ExampleRoutes Routes]
